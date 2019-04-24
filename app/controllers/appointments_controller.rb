@@ -6,7 +6,4 @@ class AppointmentsController < ApplicationController
     @patient = @appointment.patient
   end
 
-  def index
-  end
-
 end
