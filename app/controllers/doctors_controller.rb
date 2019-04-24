@@ -4,6 +4,6 @@ class DoctorsController < ApplicationController
   # end
   def show
     @doctor = Doctor.find(params[:id])
-    # @appointments = @doctor.appointments
+    @appointments = @doctor.appointments
   end
 end
